@@ -5,7 +5,7 @@
 ###                20 by 20 squre, its var is different to that of a 
 ###                30 by 30 one.)
 ###
-### True Mean: It is also depends on the size of domains, and
+### True Mean: It also depends on the size of domains, and
 ###            it is also simulated 100 times for the mean.
 ###
 ### Author: Leshun Xu
