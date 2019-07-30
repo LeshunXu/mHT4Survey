@@ -3,7 +3,7 @@
 ### using the mHT estimators.
 ###
 ### Author: Leshun Xu
-### Last modified date: 2019-07-15
+### Last modified date: 2019-07-29
 ##########################################################################
 
 # setwd("working directory")
@@ -144,12 +144,6 @@ xi[9, 1:2] <- fi[16]/2; xgi[9, 1:2] <- gi[16]
 ## Region 17:
 xi[10, 1] <- fi[17]; xgi[10, 1] <- gi[17]
 
-
-# # The commented codes are for the survey based on small blocks (start here)
-# set.seed(2)
-# temp.r <- rbinom(100, 1, xgi)
-# field.r <- matrix(temp.r, 10, 10, byrow = FALSE)
-# # The commented codes are for the survey based on small blocks (end here)
 
 temp.r <- rep(1,100)
 field.r <- matrix(temp.r, 10, 10, byrow = FALSE)
